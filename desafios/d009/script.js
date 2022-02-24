@@ -10,7 +10,7 @@ function reajustar()
 
         res.style.fontSize = "17px";
         res.innerHTML = (`<h2>${funcionário} recebeu um aumento salarial!</h2>`)
-        res.innerHTML += `<p>O salário atual era  ${salário.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}.</p>
-        <p>Com aumento de ${percentual}%, o salário vai aumentar ${reajuste.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})} no próximo mês.</p> 
-        <p>E a partir daí, ${funcionário} vai passar a ganhar ${salárioFinal.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}.</p>`
+        res.innerHTML += (`<p>O salário atual era  ${salário.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}.</p>`)
+        res.innerHTML +=(`<p>Com aumento de ${percentual}%, o salário vai aumentar ${reajuste.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})} no próximo mês.</p>`) 
+        res.innerHTML += (`<p>E a partir daí, ${funcionário} vai passar a ganhar ${salárioFinal.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}.</p>`)
     }

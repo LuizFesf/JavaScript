@@ -1,4 +1,4 @@
-var dol = window.prompt('Antes de mais nada. Quanto  está a cotação do dólar agora?')
+var dol = window.prompt('Antes de mais nada. Quanto está a cotação do dólar agora?')
 
 function converter()
     {
